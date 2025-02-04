@@ -4,7 +4,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import EggSelection from './EggSelection';
 import EggTimer from './EggTimer';
 import { useFonts } from 'expo-font';
-// import * as SplashScreen from 'expo-splash-screen';
+import { enableScreens } from 'react-native-screens';
+
+enableScreens();
 
 const Stack = createStackNavigator();
 
